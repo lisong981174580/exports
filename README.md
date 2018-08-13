@@ -39,7 +39,8 @@ console.log(example.addX(1)); // 6
 
 ```
 
-###　exports 与 module.exports
+###  exports 与 module.exports
+
 为了方便，Node为每个模块提供一个exports变量，指向module.exports。这等同在每个模块头部，有一行这样的命令。
 ```
 var exports = module.exports;
